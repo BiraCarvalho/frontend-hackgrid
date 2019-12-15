@@ -1,0 +1,34 @@
+body{
+    font-family: 'Raleway', sans-serif !important;
+    color: #434343 !important;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Patua One', cursive !important;
+    color: #ff9e00 !important;
+}
+main{
+    
+}
+
+/* section:first-child{
+    height: 541px;
+} */
+section:last-child{
+    height: 841px;
+}
+
+section{
+    padding-top:105px;
+    height: 641px;
+    max-width: 600px;
+    margin:auto;
+    /* background-color: #cccccc; */
+    /* border-bottom: 1px solid #434343; */
+}
+
+.logo{
+    max-width:200px;
+}
+.btn{
+    font-weight: bold !important;
+}
