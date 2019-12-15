@@ -138,6 +138,45 @@
         </form>
     </section>
 
+    <section id="section-8" class="d-flex align-items-center justify-content-center" style="width:75%;" >
+        <form style="width:100%;" method="POST"> <!-- action = "validacao.php" -->
+            <h4 class="text-center text-dark mb-4">
+                Cadastrinho rápido ...
+            </h4>
+            <h5 class="text-center mb-4">
+                Qual seu nome?
+            </h5>
+            <div class="form-group mb-4">
+                <input class="form-control form-control-lg text-center" name="NAME" value="Ubiratã Carvalho Nogueira" />
+            </div>
+            <h5 class="text-center mb-4">
+                Qual seu CPF?
+            </h5>
+            <div class="form-group mb-4">
+                <input class="form-control form-control-lg text-center" name="CPF" value="607.487.291-00" />
+            </div>
+            <h5 class="text-center mb-4">
+                E o seu e-mail?
+            </h5>
+            <div class="form-group mb-4">
+                <input class="form-control form-control-lg text-center" name="EMAIL" value="bira@biracarvalho.com.br" />
+            </div>            
+            <div class="form-group text-center">
+                <a href="#section-9" class="btn btn-lg btn-warning">Tá acabando, bora!</a>
+            </div>
+        </form>
+    </section>
+
+    <section id="section-9" class="d-flex align-items-center justify-content-center" style="width:75%;" >
+        <form style="width:100%;" >
+            <h4 class="text-center text-dark mb-4">
+               Obrigado!
+            </h4>
+            <form method="post"> <!-- action = "checkout.php" -->
+            </form>
+        </form> 
+    </section>    
+
 </div>
 
 <?php include_once "footer.php" ?>
