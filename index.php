@@ -67,7 +67,7 @@
 
     <section id="section-5"class="d-flex align-items-center justify-content-center">
         <form >
-            <h4 class="text-center mb-5">
+            <h4 class="text-center mb-4">
                 Qual a raça do Timóteo?
             </h4>
             <div class="form-group mb-4 px-2">
